@@ -11,6 +11,10 @@ namespace test_app.Models
 
         public int Price { get; set; }
 
+        public string Description { get; set; } = "";
+
+        public string Unit_Measure { get; set; } = "";
+
     }
 
-}
+}   
